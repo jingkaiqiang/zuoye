@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav {
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.nav .nav-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.nav .nav-1 .jiu {
+  width: 2rem;
+  height: 2rem;
+  display: block;
+  border-radius: 50%;
+  background: green;
+  text-align: center;
+  line-height: 2rem;
+  color: #fff;
+}
+.nav .nav-1 p {
+  line-height: 2rem;
+  margin-left: 1rem;
+  font-weight: 900;
+}
+
+.swiper-container, .swiper-wrapper, .swiper-slide {
+  width: 100%;
+}
+.swiper-container img, .swiper-wrapper img, .swiper-slide img {
+  width: 100%;
+  display: block;
+}
+.swiper-container .swiper-pagination-bullet, .swiper-container .swiper-pagination-bullet-active, .swiper-wrapper .swiper-pagination-bullet, .swiper-wrapper .swiper-pagination-bullet-active, .swiper-slide .swiper-pagination-bullet, .swiper-slide .swiper-pagination-bullet-active {
+  border-radius: 0;
+  width: 0.5rem;
+  height: 0.3rem;
+}
+
+.nei {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+.nei .neirong {
+  width: 25%;
+}
+.nei .neirong img {
+  width: 50%;
+  margin-left: 25%;
+}
+.nei .neirong p {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.ceping {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+}
+.ceping p {
+  padding: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.jiewei {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+.jiewei .jie-1, .jiewei .right {
+  width: 20%;
+}
+.jiewei .jie-1 img, .jiewei .right img {
+  width: 100%;
+}
+.jiewei .juzhong {
+  width: 55%;
+}
+.jiewei .juzhong p {
+  font-size: 0.8rem;
+}
+.jiewei .right {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 4rem;
+}
+
+/*# sourceMappingURL=new_file.css.map */
